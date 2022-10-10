@@ -6,11 +6,9 @@
 
 terraform {
   required_providers {
-    azurerm = {
-      source = "hashicorp/azurerm"
-    }
-    azuread = {
-      source = "hashicorp/azuread"
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.0"
     }
 
   }
@@ -18,6 +16,6 @@ terraform {
   }
 
 }
-provider "azurerm" {
-  features {}
+provider "aws" {
+  region = "eu-central-1"
 }
