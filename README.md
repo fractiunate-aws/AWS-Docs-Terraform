@@ -1,2 +1,2 @@
-# template-gh-actions-terraform-project
-A base Repo to init terraform projects
+# AWS-Docs-Terraform
+AWS Docs Examples implemented in Terraform
